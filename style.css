@@ -58,3 +58,19 @@ button {
   border: 1px solid gold;
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
 }
+.maintenance {
+  margin-top: 10px;
+  color: #ff4d4d;
+  font-size: 14px;
+  font-weight: bold;
+}
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+.maintenance {
+  margin-top: 10px;
+  color: #ff4d4d;
+  font-size: 14px;
+  font-weight: bold;
+}
