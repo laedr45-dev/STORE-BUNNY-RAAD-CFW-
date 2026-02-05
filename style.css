@@ -74,3 +74,21 @@ button:disabled {
   font-size: 14px;
   font-weight: bold;
 }
+.maintenance {
+  margin-top: 8px;
+  color: #ff4d4d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+}
+.maintenance {
+  margin-top: 8px;
+  color: #ff4d4d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
