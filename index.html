@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر السيرفر</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🛒 متجر السيرفر</h1>
+  <div class="cart">السلة: <span id="cartCount">0</span></div>
+</header>
+
+<section class="products">
+
+  <!-- رتبة VIB -->
+  <div class="product">
+    <img src="https://via.placeholder.com/250" alt="">
+    <h3>رتبة VIB</h3>
+    <p>مميزات خاصة داخل السيرفر</p>
+    <span class="price">5 د.ك</span>
+    <button onclick="addToCart('رتبة VIB')">شراء</button>
+  </div>
+
+  <!-- حزمة VIB -->
+  <div class="product vip">
+    <img src="https://via.placeholder.com/250/000000/FFD700" alt="">
+    <h3>حزمة VIB</h3>
+    <p>رتبة + سيارات + فلوس</p>
+    <span class="price">10 د.ك</span>
+    <button onclick="addToCart('حزمة VIB')">شراء</button>
+  </div>
+
+  <!-- سيارة عادية -->
+  <div class="product">
+    <img src="https://via.placeholder.com/250" alt="">
+    <h3>سيارة عادية</h3>
+    <p>سيارة للاستخدام اليومي</p>
+    <span class="price">3 د.ك</span>
+    <button onclick="addToCart('سيارة عادية')">شراء</button>
+  </div>
+
+  <!-- حزمة سيارات VIB -->
+  <div class="product vip">
+    <img src="https://via.placeholder.com/250/111111/FFD700" alt="">
+    <h3>حزمة سيارات VIB</h3>
+    <p>عدة سيارات فخمة</p>
+    <span class="price">15 د.ك</span>
+    <button onclick="addToCart('حزمة سيارات VIB')">شراء</button>
+  </div>
+
+  <!-- منزل -->
+  <div class="product">
+    <img src="https://via.placeholder.com/250" alt="">
+    <h3>منزل</h3>
+    <p>امتلك منزل داخل السيرفر</p>
+    <span class="price">7 د.ك</span>
+    <button onclick="addToCart('منزل')">شراء</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
